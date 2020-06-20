@@ -1,0 +1,3 @@
+rootProject.name='XUtil'
+include ':app'
+include ':XUtil'
