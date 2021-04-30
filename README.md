@@ -1,7 +1,7 @@
 # XUtil
 a common util lib for Android
 
-# Common Class Util
+## Common Class Util
 
 * ClickUtil : 多次点击事件
 * ActivityManager
@@ -15,7 +15,7 @@ a common util lib for Android
 * StatusBarUtil
 * NativeBarUtil
 
-# how to use
+## how to use
 1.  app/build.gradle 配置如下：
    
 ```

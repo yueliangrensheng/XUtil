@@ -1,5 +1,5 @@
 
-package com.yazao.lib.util;
+package com.yazao.lib.util.activity;
 
 import android.app.Activity;
 

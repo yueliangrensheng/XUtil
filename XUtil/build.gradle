@@ -1,5 +1,9 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+//---------------------------------- sonatype maven center start -------------------------------
+//这里是上传到 Sonatype 的 MavenCenter仓库中
+apply from: "${rootProject.projectDir}/build_mavencentral.gradle"
+//---------------------------------- sonatype maven center end -------------------------------
 
 android {
     compileSdkVersion 29
@@ -38,5 +42,5 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
 
-    implementation('com.yazao:xlog:1.0.1')
+    implementation 'io.github.yueliangrensheng:xlog:1.0.2'
 }
