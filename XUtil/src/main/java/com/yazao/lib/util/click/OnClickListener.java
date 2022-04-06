@@ -9,5 +9,8 @@ import android.view.View;
  * @data 2018/9/10 1:34 PM
  */
 public interface OnClickListener {
+    /**
+     * @Description Click事件回调方法： position为view在其父类中的角标位置
+     */
     public void onClick(View view, int position);
 }

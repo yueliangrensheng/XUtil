@@ -11,15 +11,17 @@ import android.view.View;
  */
 
 public class ClickUtil {
-    private static class SingleHolder {
-        private static final ClickUtil ourInstance = new ClickUtil();
-    }
 
-    public static ClickUtil getInstance() {
-        return SingleHolder.ourInstance;
-    }
+    //这里修改工具类为普通类。防止单例实例引用实例导致的内存泄漏。
+//    private static class SingleHolder {
+//        private static final ClickUtil ourInstance = new ClickUtil();
+//    }
+//
+//    public static ClickUtil getInstance() {
+//        return SingleHolder.ourInstance;
+//    }
 
-    private ClickUtil() {
+    public ClickUtil() {
     }
 
     long[] mHints = null;
